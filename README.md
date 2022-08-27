@@ -48,7 +48,7 @@ annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
     kubernetes.io/ingress.class: nginx
 
-#URLs:
+## URLs:
 * https://kubernetes.io/docs/tasks/tools/
 * https://kubernetes.io/docs/tutorials/kubernetes-basics/
 * https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/
@@ -64,3 +64,18 @@ annotations:
 * https://assistanz.com/steps-to-create-custom-namespace-in-the-kubernetes/
 * https://stackoverflow.com/questions/43643463/how-to-switch-kubectl-clusters-between-gcloud-and-minikube
 ----------------------------------------------------------------------------------------------------------------------------
+
+## AWS Experaince 
+### IAM
+The AWS account root user or an IAM administrator for the account can create IAM identities. An IAM identity provides access to an AWS account. A user group is a collection of IAM users managed as a unit. An IAM identity represents a user, and can be authenticated and then authorized to perform actions in AWS. Each IAM identity can be associated with one or more policies. Policies determine what actions a user, role, or member of a user group can perform, on which AWS resources, and under what conditions.
+* [IAM Video](https://www.youtube.com/watch?v=y8cbKJAo3B4)
+
+### VPC
+* [AWS VPC](https://aws.amazon.com/vpc/)
+* [VPC Video](https://www.youtube.com/watch?v=bGDMeD6kOz0)
+
+### ECR
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
